@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 50px;
+}
+h1 {
+  font-size: 38px;
+  font-weight: 500;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+h2 {
+  font-size: 25px;
+  line-height: 50px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 18px;
+  color: rgb(91, 86, 102);
+}
+p {
+  color: rgb(91, 86, 102);
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+li {
+  list-style: none;
+  position: relative;
+  left: -25px;
+  color: rgb(91, 86, 102);
+}
+.card-1 {
+  padding: 10px;
+}
+.card-2 {
+  padding: 10px;
+  position: relative;
+  right: -40px;
+}
+.card-icon {
+  font-size: 50px;
+}
+.col-2-icon {
+  font-size: 36px;
+  position: relative;
+  right: -15px;
+}
+.col-days {
+  position: relative;
+  right: -120px;
+  top: -255px;
+  font-size: 18px;
+  padding: 0 20px;
+}
+.card-app {
+  border: 1px solid #9aa0a5;
+  padding: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.row-app {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.units {
+  position: relative;
+  top: -15px;
+  font-size: 15px;
+}
+.card-temp {
+  font-size: 30px;
+}
