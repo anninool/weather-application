@@ -72,3 +72,8 @@ li {
 .card-temp {
   font-size: 30px;
 }
+.weather-link {
+  position: relative;
+  right: -280px;
+  padding: 0;
+}
