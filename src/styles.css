@@ -26,8 +26,10 @@ p {
 }
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
   position: relative;
-  left: -25px;
+  left: -30px;
   color: rgb(91, 86, 102);
 }
 .card-1 {
@@ -53,6 +55,10 @@ li {
   font-size: 18px;
   padding: 0 20px;
 }
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+}
 .card-app {
   border: 1px solid #9aa0a5;
   padding: 15px;
@@ -73,7 +79,6 @@ li {
   font-size: 30px;
 }
 .weather-link {
-  position: relative;
-  right: -280px;
   padding: 0;
+  margin: 0 auto;
 }
