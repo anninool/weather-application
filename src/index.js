@@ -50,7 +50,7 @@ function displayForecast(response) {
             forecastDay.weather[0].icon
           }@2x.png"
           alt=""
-          width="42"
+          width="52"
         />
                     <div class="weather-forecast-day">
                       ${formatDay(forecastDay.dt)}

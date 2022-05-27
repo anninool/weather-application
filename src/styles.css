@@ -43,18 +43,7 @@ li {
 .card-icon {
   font-size: 50px;
 }
-.col-2-icon {
-  font-size: 36px;
-  position: relative;
-  right: -15px;
-}
-.col-days {
-  position: relative;
-  right: -120px;
-  top: -255px;
-  font-size: 18px;
-  padding: 0 20px;
-}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 20px auto;
@@ -84,9 +73,10 @@ li {
 }
 .weather-forecast {
   position: relative;
-  left: 30px;
-  top: -30px;
-  padding: 0;
+  left: 60px;
+  top: 5px;
+  padding: 0px;
+  margin: -40px;
 }
 .weather-forecast-icon {
   position: relative;
@@ -97,6 +87,4 @@ li {
 .forecast-temperature-min {
   opacity: 0.5;
   position: relative;
-  left: 27px;
-  top: -23.8px;
 }
