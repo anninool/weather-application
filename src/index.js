@@ -23,6 +23,37 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = "";
+  let days = ["Mon", "Tue", "Wed", "Thur", "Fri"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+  <div class="row">
+            <div class="col-sm-6">
+              <div class="card-1">
+                <div class="card-body">
+                  <div class="weather-forecast" id="forecast">
+                    <div class="weather-forecast-icon">🌧</div>
+                    <div class="weather-forecast-day">
+                      ${day}
+                     <br />
+                      <span class="forecast-temperature-max">9°</span>
+                      <span class="forecast-temperature-min">8°</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </div>
+  `;
+  });
+
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayWeatherCondition(response) {
   let cityElement = document.querySelector("#city");
   let temperatureElement = document.querySelector("#temperature");

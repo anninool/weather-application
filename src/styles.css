@@ -84,7 +84,7 @@ li {
 }
 .weather-forecast {
   position: relative;
-  left: 80px;
+  left: 30px;
   top: -30px;
 }
 .weather-forecast-icon {
@@ -92,4 +92,7 @@ li {
   right: 60px;
   top: 38px;
   font-size: 30px;
+}
+.forecast-temperature-min {
+  opacity: 0.5;
 }
