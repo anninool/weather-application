@@ -1,18 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 50px 50px;
-
-  background: linear-gradient(
-    180deg,
-    #030009,
-    #0d0a12,
-    #1d1c22,
-    #313039,
-    #494955,
-    #5f616f,
-    #707383,
-    #777a8b
-  );
+  background-image: url("https://images.unsplash.com/photo-1500491460312-c32fc2dbc751?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
+  background-size: cover;
 }
 h1 {
   font-size: 38px;
